@@ -2137,9 +2137,9 @@
                 promoDiscountProducts: []
             },
             STORE_INFO: {
-                name: "متجر أطفال",
-                tagline: "متجر ملابس فاخرة",
-                phoneNumbers: ["0671466489", "0551102155"],
+                name: "",
+                tagline: "",
+                phoneNumbers: ["",""],
                 logo: "",
                 facebookUrl: "",
                 instagramUrl: "",
@@ -4268,7 +4268,7 @@
                     <div class="form-group">
                         <label>👉 تخصص المتجر</label>
                         <input type="text" class="form-control" id="storeTagline" 
-                               value="${CONFIG.STORE_INFO?.tagline || 'متجر ملابس فاخرة'}" 
+                               value="${CONFIG.STORE_INFO?.tagline || ''}" 
                                onchange="updateStoreField('tagline', this.value)">
                     </div>
                     
