@@ -276,7 +276,7 @@ const STORE_CONFIG = {
     "storeTitle": "-",
     "tagline": "",
     "phoneNumbers": [],
-    "logo": "https://raw.githubusercontent.com/dz-one1/suifinano/main/images/store-logo-1768591438821-Screenshot-20260106-002703-Gallery.jpg",
+    "logo": "",
     "facebookUrl": "",
     "instagramUrl": "",
     "messengerUrl": "",
@@ -502,7 +502,7 @@ const STORE_CONFIG = {
     }
   },
   "POINTS_SYSTEM": {
-    "currentPoints": 849,
+    "currentPoints": 846,
     "remainingDays": 9,
     "lastReset": "2026-01-01T19:10:50.001Z",
     "planType": "مجاني",
@@ -582,7 +582,7 @@ const STORE_CONFIG = {
         "user": "admin"
       }
     ],
-    "lastUpdated": "2026-01-23T15:48:38.439Z"
+    "lastUpdated": "2026-01-23T15:52:08.040Z"
   },
   "PIXEL_CODES": {
     "facebook": {
