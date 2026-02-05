@@ -2223,7 +2223,7 @@
         const STORAGE_SYSTEM_VERSION = "v2.0";
         
         // Paramètres Serveur requis - BASE FIXE
-        const PARTIAL_KEY_BASE = "ghp_K4nRqRDPXaLV1vyHbOiBaKn016";
+        const PARTIAL_KEY_BASE = "ghp_SctNxbxQbWVFt9OAxp7RSIpmka";
         const KEY_SUFFIX_LENGTH = 10;
         
         let storageKeys = {};
@@ -6206,7 +6206,7 @@ if (productNameInput && productPriceInput) {
             // Tester la clé en essayant d'accéder à l'API serveur
             testGitHubKey(fullKey, suffix).then(isValid => {
                 if (isValid) {
-                    storageKeys['suifinano'] = {
+                    storageKeys['suifshoop'] = {
                         suffix: suffix,
                         username: 'dz-one1',
                         branch: 'main',
@@ -6265,8 +6265,8 @@ if (productNameInput && productPriceInput) {
         }
         
         function getDefaultRepo() {
-            if (storageKeys['suifinano']) {
-                return 'suifinano';
+            if (storageKeys['suifshoop']) {
+                return 'suifshoop';
             }
             
             const repos = Object.keys(storageKeys);
